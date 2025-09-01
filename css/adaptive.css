@@ -1,0 +1,146 @@
+@media screen and (max-width: 1000px) {
+
+  .home-title {
+    font-size: 4.5vw;
+  }
+
+  .title, .home-sub-title {
+    margin: 35px 0px 35px 15px;
+  }
+
+  .home-sub-title {
+    margin-right: 15px;
+  }
+
+  .info-container__btn {
+    height: 95px;
+    gap: 35px;
+    font-size: 2vw;
+    margin: 0 35px 50px 20px;
+  }
+
+  .info-container__btn::after {
+    width: 50px;
+    height: 50px;
+  }
+
+  .about-text {
+    width: 100%;
+    font-size: 2.5vw;
+    padding: 15px;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  
+  .img-container {
+    display: none;
+  }
+
+  .info-container {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .home-text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 7vw;
+    margin: 25px 0 0 15px;
+  }
+
+  .home-title {
+    margin: 25px 0 0 0;
+  }
+
+  .home-sub-title {
+    margin: 50px 0 0 0;
+    font-size: 4.5vw;
+  }
+
+  .second-sub-title {
+    margin: 20px 30px 50px 30px;
+    font-size: 3.5vw;
+  }
+
+  .home-title {
+    font-size: 8vw;
+  }
+
+  .info-container__btn {
+    margin: 0 0 50px 0;
+    font-size: 4.5vw;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-text {
+    font-size: 3.5vw;
+  }
+
+  .innovation-container {
+    flex-direction: column-reverse;
+  }
+
+  .table {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .td-symbols {
+    font-size: 6vw;
+  }
+
+  .table__th {
+    padding: 10px;
+  }
+
+  .table__td {
+    padding: 15px 10px;
+  }
+
+  .form__input {
+    width: 450px;
+    font-size: 25px;
+  }
+
+  .form__form-btn {
+    width: 450px;
+    height: 75px;
+    font-size: 25px;
+  }
+
+}
+
+@media screen and (max-width: 490px) {
+
+  .change-lang {
+    width: 80px;
+    height: 50px;
+    font-size: 15px;
+    border: 3px solid var(--accentColor);
+    border-radius: var(--radius);
+  }
+
+  .form__input {
+    width: 280px;
+    font-size: 15px;
+  }
+
+  .form__form-btn {
+    width: 280px;
+    height: 75px;
+    font-size: 15px;
+  }
+
+}
