@@ -24,8 +24,8 @@ const langArr = {
   },
 
   "about-text": {
-    ru: 'Без USB и NFC. <br> Виртуальные клавиши под токеном <span class="accent-text">недоступны вирусам, перехватывающим клавиатуру и скриншоты</span>',
-    en: 'Without USB and NFS. <br> Virtual keys under the token <span class="accent-text">are not accessible to viruses that intercept the keyboard and screenshots</span>',
+    ru: 'Без USB и NFC <br> Виртуальные клавиши под токеном <span class="accent-text">недоступны вирусам, перехватывающим клавиатуру и скриншоты</span>',
+    en: 'Without USB and NFS <br> Virtual keys under the token <span class="accent-text">are not accessible to viruses that intercept the keyboard and screenshots</span>',
   },
 
   "innovation-title": {
@@ -178,4 +178,5 @@ changeLanguage()
 //     btn.classList.add('lang-btn-active')
 //     changeLang()
 //   })
+
 // }))
