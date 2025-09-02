@@ -1,5 +1,5 @@
-const TOKEN = ''
-const CTHAT_ID = ''
+const TOKEN = '8038753925:AAEeUp0Rdkmk-Uu87QW2GJeNKHyv1UYTky0'
+const CTHAT_ID = '-4860661034'
 const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`
 
 document.getElementById('contactForm').addEventListener('submit', function (e) {
@@ -24,5 +24,6 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     console.log('Завершилось')
     document.getElementById('contactForm').reset()
   })
+
 
 })
